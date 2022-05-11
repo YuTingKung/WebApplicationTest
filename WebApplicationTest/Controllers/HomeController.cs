@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 using WebApplicationTest.Models;
 
@@ -32,6 +33,11 @@ namespace WebApplicationTest.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public Expression Visit(Expression exp)
+        {
+            return exp;
         }
     }
 }
