@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\MSBuild.exe" C:\ProgramData\Jenkins\.jenkins\workspace\WebApplicationTest\WebApplicationTest\WebApplicationTest.csproj /p:DeployOnBuild=true /p:PublishProfile=D:\Project\WebApplicationTest\WebApplicationTest\Properties\PublishProfiles\FolderProfile.pubxml -restore
